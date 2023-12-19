@@ -1,5 +1,5 @@
 name: screenshot_callback_plus
-description: "A new Flutter project."
+description: Flutter plugin that allows you to detect screenshot and execute callback functions.
 version: 1.0.0
 homepage: https://github.com/chandrabezzo/screenshot_callback_plus
 
@@ -41,15 +41,15 @@ flutter:
         pluginClass: ScreenshotCallbackPlusPlugin
       ios:
         pluginClass: ScreenshotCallbackPlusPlugin
-      linux:
-        pluginClass: ScreenshotCallbackPlusPlugin
-      macos:
-        pluginClass: ScreenshotCallbackPlusPlugin
-      windows:
-        pluginClass: ScreenshotCallbackPlusPluginCApi
-      web:
-        pluginClass: ScreenshotCallbackPlusWeb
-        fileName: screenshot_callback_plus_web.dart
+      # linux:
+      #   pluginClass: ScreenshotCallbackPlusPlugin
+      # macos:
+      #   pluginClass: ScreenshotCallbackPlusPlugin
+      # windows:
+      #   pluginClass: ScreenshotCallbackPlusPluginCApi
+      # web:
+      #   pluginClass: ScreenshotCallbackPlusWeb
+      #   fileName: screenshot_callback_plus_web.dart
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
