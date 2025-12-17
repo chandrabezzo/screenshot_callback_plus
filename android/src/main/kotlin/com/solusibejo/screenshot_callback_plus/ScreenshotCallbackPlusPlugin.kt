@@ -3,7 +3,6 @@ package com.solusibejo.screenshot_callback_plus
 import android.app.Activity
 import android.os.Handler
 import android.os.Looper
-import androidx.annotation.NonNull
 
 import io.flutter.embedding.engine.plugins.FlutterPlugin
 import io.flutter.embedding.engine.plugins.activity.ActivityAware

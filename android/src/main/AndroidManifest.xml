@@ -1,9 +1,8 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.solusibejo.screenshot_callback_plus">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
   <application
         android:requestLegacyExternalStorage="true"
         ></application>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" maxSdkVersion="32"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" maxSdkVersion="32"/>
     <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
 </manifest>
